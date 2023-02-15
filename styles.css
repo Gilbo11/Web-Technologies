@@ -2,6 +2,7 @@
     font-family: 'Trebuchet MS', sans-serif;
     margin: 0%;
     color: white;
+    
 }
 
 /*HEADER*/
@@ -37,22 +38,32 @@ ul li {
 
 /*INFO*/
 
-.flexmain{
+.flexmain_container{
     background-color: black;
+    
 }
 
 #question{
     background-color: black;
     text-align: center;
+    padding-top: 20px;
 }
 
-#right{
+.left_wrapper{
+    width: 50%;
+}
+
+.dragon_img{
+    width: 100%;
+    padding: 20px;
+}
+
+.right_wrapper{
+    width: 50%;
     display: flex;
     justify-content: flex-end;
-    color: white;
 }
 
-.right, .left{
-    width: 100%;
-}
+
+
 
