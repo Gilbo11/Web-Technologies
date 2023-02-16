@@ -21,10 +21,10 @@ header{
 
 /*NAV*/
 ul{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     width: 100%;
     height: 25px;
-    margin-top: 0%;
+    padding: 0;
 }
 
 ul li {
@@ -32,15 +32,16 @@ ul li {
     display: inline-block;
     list-style: none;
     width: 18%;
-    
-   text-align: center;
+    text-align: center;
+   
 }
 
 /*INFO*/
 
 .flexmain_container{
     background-color: black;
-    display: flex;justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
 }
 
 #question{
@@ -56,8 +57,7 @@ ul li {
 
 .right_wrapper{
     width: 50%;
-    display: flex;
-    justify-content: flex-end;
+   
 }
 
 .left_wrapper, .right_wrapper{
@@ -65,3 +65,22 @@ ul li {
 }
 
 
+@media screen and (max-width:768px){
+    
+    header{
+        justify-content: center;
+        font-size:35px;
+        text-align: center;
+    }    
+    
+    ul li{
+        display: inline-block;
+        width: 15%;
+        text-align: center;
+    }
+    .flexmain_container{
+        background-color: blue;
+    }
+    
+}
+    
