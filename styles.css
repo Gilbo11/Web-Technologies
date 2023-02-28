@@ -81,13 +81,34 @@ ul li {
     padding-top: 50px;
 }
 
-
-
-
-
 button{
     background-color: white;
     color: rgb(78, 75, 75);
+}
+
+/*DRAGONBORN*/
+
+#game{
+    background-color: black;
+    text-align: center;
+    padding: 5px;
+}
+
+.game_1{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+}
+
+.game_2, .game_3{
+    display: none;
+}
+
+#scrt_element{
+    display: none;
 }
 
 @media screen and (max-width:768px){
